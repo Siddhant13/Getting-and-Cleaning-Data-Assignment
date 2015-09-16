@@ -5,6 +5,7 @@ There are two other files. One of them is the R code to generate the tidy data. 
 There are five steps in the R code as follows:
 
 ###1. Reading the data and merging the training and test set
+The code assumes that all the necessary data is one single working directory.
 In order to reduce the time taken in reading the data I have performed some preprocessing tasks. First the code finds the columns which contain the mean and statndard deviations and then the program only reads those columns. I have taken the measurements which contain the words "mean" or "std" to be the features required in the tidy data set.
 
 ###2. Extracting only the measurements on the mean and standard deviation for each measurement
